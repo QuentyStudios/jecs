@@ -1,29 +1,31 @@
 {
-	"name": "@rbxts/jecs",
-	"version": "0.11.0",
-	"description": "Stupidly fast Entity Component System",
+	"name": "@quentystudios/jecs",
+	"version": "0.11.0-quenty.0",
+	"description": "QuentyStudios fork of Jecs - Stupidly fast Entity Component System",
 	"main": "src/jecs.luau",
+	"publishConfig": {
+		"access": "public",
+		"registry": "https://npm.pkg.github.com"
+	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Ukendio/jecs"
+		"url": "git+https://github.com/QuentyStudios/jecs.git"
 	},
 	"keywords": [],
-	"author": "Ukendio",
+	"author": "QuentyStudios",
 	"contributors": [
+		"QuentyStudios",
 		"Ukendio",
 		"EncodedVenom"
 	],
-	"homepage": "https://github.com/ukendio/jecs",
+	"homepage": "https://github.com/QuentyStudios/jecs",
 	"license": "MIT",
 	"types": "src/jecs.d.ts",
 	"files": [
 		"src",
-		"LICENSE.md",
+		"LICENSE",
 		"README.md"
 	],
-	"publishConfig": {
-		"access": "public"
-	},
 	"devDependencies": {
 		"@rbxts/compiler-types": "^2.3.0-types.1",
 		"@rbxts/types": "^1.0.781",
