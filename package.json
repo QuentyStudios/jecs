@@ -1,6 +1,6 @@
 {
 	"name": "@quentystudios/jecs",
-	"version": "0.11.0-quenty.0",
+	"version": "0.11.0-quenty.1",
 	"description": "QuentyStudios fork of Jecs - Stupidly fast Entity Component System",
 	"main": "src/jecs.luau",
 	"publishConfig": {
