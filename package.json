@@ -1,6 +1,6 @@
 {
 	"name": "@quentystudios/jecs",
-	"version": "0.11.0-quenty.2",
+	"version": "0.11.0-quenty.3",
 	"description": "QuentyStudios fork of Jecs - Stupidly fast Entity Component System",
 	"main": "src/jecs.luau",
 	"publishConfig": {
@@ -24,7 +24,8 @@
 	"files": [
 		"src",
 		"LICENSE",
-		"README.md"
+		"README.md",
+		"default.project.json"
 	],
 	"devDependencies": {
 		"@rbxts/compiler-types": "^2.3.0-types.1",
